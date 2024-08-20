@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Tortues Fascinantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Les Tortues Fascinantes</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#gallery">Galerie</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="banner">
+        <div class="banner-text">
+            <h2>Découvrez le monde captivant des tortues</h2>
+            <p>Explorez les différentes espèces et leur mode de vie fascinant.</p>
+            <a href="#about" class="button">En savoir plus</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>À propos des Tortues</h2>
+        <p>Les tortues sont des reptiles qui existent depuis des millions d'années. Elles vivent aussi bien sur terre
+            que dans l'eau. Leur longévité et leur aspect préhistorique en font des créatures fascinantes et
+            mystérieuses.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Galerie</h2>
+        <div class="gallery-container">
+            <img src="totrue1.jpg" alt="Tortue 1">
+            <img src="tortue2.jpg" alt="Tortue 2">
+            <img src="tortue3.jpg" alt="Tortue 3">
+            <img src="tortue4.jpg" alt="Tortue 4">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
